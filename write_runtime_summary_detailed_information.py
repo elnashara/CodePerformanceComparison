@@ -42,7 +42,7 @@ class WriteRuntimeSummaryDetailedInformation:
         if not os.path.exists(file_loc_detailed):
             return
 
-        data = pd.read_csv(file_loc_detailed)
+        data = pd.read_csv(file_loc_detailed, encoding='latin-1')
         # Iterate over the rows
         for index, row in data.iterrows():
             # print(index)

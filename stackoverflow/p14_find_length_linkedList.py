@@ -45,7 +45,7 @@ class p14FindLengthLinkedList(BaseProblem):
             current.next = Node(random.randint(0, 1000000))
             current = current.next
 
-        arg1 = head
+        arg1 = 'LinkedList'
         arg2 = 'N/A'
         return arg1, arg2
 

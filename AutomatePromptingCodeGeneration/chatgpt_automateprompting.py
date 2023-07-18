@@ -97,8 +97,8 @@ def main(config, api_key, data_dir):
     # for org_problem_name, org_problem_value in original_problem_properties.items():
     for problem_number, (org_problem_name, org_problem_value) in enumerate(original_problem_properties.items(), start=1):
         try:
-            if problem_number != 12:
-                continue
+            # if problem_number != 12:
+            #     continue
             build_file_name = f"p{str(problem_number)}.{clean_string(org_problem_value)}.csv"
             print(build_file_name)
 

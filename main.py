@@ -19,7 +19,9 @@ def main():
         p_result_list = []
         code_segment = prompt.get_code_segment(content['generated_code'])
         print (f'index: {index}, {content["prompt_name"]}, code_number: {content["code_number"]}')
-        if code_segment == 'N/A' or "Syntax error" in code_segment:
+        if code_segment != 'N/A' and "Syntax error" not in code_segment:
+            p_result_list = runtimeperformance.get_runtime(content["prompt_name"], content["code_number"], code_segment)
+        else:
             for size in sizes:
                 result = {
                     'prompt_name': content['prompt_name'],
@@ -29,11 +31,9 @@ def main():
                     'min_time': 0,
                     'avg_time': 0,
                     'max_time': 0,
-                    'Exception': f'function_index: {content["prompt_name"]} , code_start_index: -1, No Python code available'
+                    'Exception': f'function_index: {content["prompt_name"]}, code_start_index: -1, No Python code available'
                 }
                 p_result_list.append(result)
-        else:
-            p_result_list = runtimeperformance.get_runtime(content["prompt_name"], content["code_number"], code_segment)
         
         write.write_runtime_detailed_information(p_result_list, output_detailed)
 

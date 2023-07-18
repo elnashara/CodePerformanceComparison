@@ -12,8 +12,10 @@ class RuntimePerformance:
 
     def get_runtime(self, prompt_name, code_index, func_code):
         execution = RuntimeExecution(func_code, self.versions)
+        
         p_result_list = []
         exception = 'N/A'
+
         for size in self.sizes:
             pool = mp.Pool(processes=1)  # Create a multiprocessing pool with 1 process
             lock = mp.Lock()  # Create a lock for synchronization
@@ -23,7 +25,6 @@ class RuntimePerformance:
                 lock.acquire()  # Acquire the lock before running get_runtime
                 async_result = pool.apply_async(execution.execute, args=(size, self.function_param,))  # Run get_runtime asynchronously
                 try:
-                    # time_out = self.timeout if self.best_avg_time == 'N/A' else min(self.timeout, self.best_avg_time * 200)
                     time_list, exception  = async_result.get(timeout=self.timeout)  # Get the result within timeout seconds
                 except mp.TimeoutError:
                     exception = f"\t runtime.get_runtime terminated after {self.timeout} seconds"
@@ -47,7 +48,6 @@ class RuntimePerformance:
         
             min_time = min(time_list)
             avg_time = statistics.mean(time_list)
-            # self.best_avg_time = avg_time if self.best_avg_time == 'N/A' else min(avg_time, self.best_avg_time)
             max_time = max(time_list)
             
             pool.close()

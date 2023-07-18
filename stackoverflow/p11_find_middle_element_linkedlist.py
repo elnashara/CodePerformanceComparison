@@ -47,9 +47,9 @@ class p11FindMiddleElementLinkedlist(BaseProblem):
             current.next = Node(random.randint(0, 1000000))
             current = current.next
 
-        arg1 = head
+        arg1 = 'LinkedList'
         arg2 = 'N/A'
-        return arg1, arg2
+        return (arg1, arg2)
 
     def get_problem(self):
         return f"p{self.problem_number}_find_middle_element_linkedlist"

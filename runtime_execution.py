@@ -1,6 +1,37 @@
 import timeit
 import traceback
 import textwrap
+import random
+
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+def create_linked_list(size):
+    head = Node(random.randint(0, 1000000))
+    current = head
+    for i in range(size):
+        current.next = Node(random.randint(0, 1000000))
+        current = current.next
+
+    return head
+
+def create_linked_list_loop(size):
+    head = Node(random.randint(0, 1000000))
+    current = head
+    for i in range(size):
+        current.next = Node(random.randint(0, 1000000))
+        current = current.next
+
+    # Create a loop in the linked list (connect the last node to a random node)
+    last_node = current
+    random_node = head
+    for i in range(random.randint(1, 100)):
+        random_node = random_node.next
+    last_node.next = random_node  
+
+    return head
 
 class RuntimeExecution:
     def __init__(self, func_code, versions):
@@ -18,7 +49,12 @@ class RuntimeExecution:
                     arg1 = arg['arg1']
                     arg2 = arg['arg2']
                     break
-
+            
+            if arg1 == 'LinkedList':
+                arg1 = create_linked_list(size)
+            elif arg1 == 'LinkedListwithLoop':
+                arg1 = create_linked_list_loop(size)
+            
             dedented_code = textwrap.dedent(self.func_code)
             compiled_code = compile(dedented_code, "<string>", "exec")
             # Execute the code string to define the function

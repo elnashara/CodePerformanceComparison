@@ -68,7 +68,7 @@ class p12DetectLoopInLinkedlist(BaseProblem):
             random_node = random_node.next
         last_node.next = random_node            
 
-        arg1 = head
+        arg1 = 'LinkedListwithLoop'
         arg2 = 'N/A'
         return arg1, arg2
 

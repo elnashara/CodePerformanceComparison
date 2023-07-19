@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p3_find_n_smallest_number,1.859990879893303e-05,0.0064646919156963,0.0174551999662071,0.0061205328154181,5.623025162306725
-10000,prompt_1,p3_find_n_smallest_number,1.8900027498602867e-05,0.1087342974015658,0.2119421998504549,0.0698626286177711,55.64014631694927
-100000,prompt_1,p3_find_n_smallest_number,0.2562686000019312,1.6441159143685606,3.5543638998642564,0.8474491520002057,94.00761809578891
-1000,prompt_2,p3_find_n_smallest_number,0.0018531999085098,0.1048508141249767,2.205638299928978,0.0061205328154181,1613.0994520746513
-10000,prompt_2,p3_find_n_smallest_number,0.0199094000272452,30.105381058199168,600.0,0.0698626286177711,42992.25354647077
-100000,prompt_2,p3_find_n_smallest_number,0.2009707000106573,31.485000184560885,600.0,0.8474491520002057,3615.267176826822
-1000,prompt_3,p3_find_n_smallest_number,0.0003415998071432,0.0532098335167637,2.208058499963954,0.0061205328154181,769.3660359556275
-10000,prompt_3,p3_find_n_smallest_number,0.0030818998347967,12.737988798074324,600.0,0.0698626286177711,18132.907994008885
-100000,prompt_3,p3_find_n_smallest_number,0.2267108999658376,14.209705985009125,600.0,0.8474491520002057,1576.7620749245468
-1000,prompt_4,p3_find_n_smallest_number,0.0003381001297384,0.0337932604860492,2.221344700083137,0.0061205328154181,452.1293897962828
-10000,prompt_4,p3_find_n_smallest_number,0.0030841000843793,7.09777484235971,600.0,0.0698626286177711,10059.616067687202
-100000,prompt_4,p3_find_n_smallest_number,0.2768301998730749,8.674864490162523,600.0,0.8474491520002057,923.6442469365311
-1000,prompt_5,p3_find_n_smallest_number,8.499948307871819e-06,0.0331395345896533,2.252036700025201,0.0061205328154181,441.4485239940586
-10000,prompt_5,p3_find_n_smallest_number,8.599832653999329e-06,13.424899274454386,600.0,0.0698626286177711,19116.138213040937
-100000,prompt_5,p3_find_n_smallest_number,8.600065484642982e-06,21.073932210766245,600.0,0.8474491520002057,2386.7488699500323
-1000,prompt_6,p3_find_n_smallest_number,7.299985736608505e-05,0.0061205328154181,0.0224032001569867,0.0061205328154181,0.0
-10000,prompt_6,p3_find_n_smallest_number,6.900005973875523e-05,0.0698626286177711,0.1861771999392658,0.0698626286177711,0.0
-100000,prompt_6,p3_find_n_smallest_number,7.280008867383003e-05,0.8474491520002057,2.79023230005987,0.8474491520002057,0.0
-1000,prompt_7,p3_find_n_smallest_number,8.399831131100655e-06,0.0346985489502264,2.212424200028181,0.0061205328154181,466.92039723760723
-10000,prompt_7,p3_find_n_smallest_number,7.799826562404633e-06,7.427592129120691,600.0,0.0698626286177711,10531.710080303677
-100000,prompt_7,p3_find_n_smallest_number,0.2264501000754535,15.968845530705602,600.0,0.8474491520002057,1784.3426172549557
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Python algorithm to find the indexes of the k smallest number in an unsorted array?""",p3_find_n_smallest_number,0.0036634,0.003992622,0.0057573,0.003992622,0
+10000,prompt_human,"""Python algorithm to find the indexes of the k smallest number in an unsorted array?""",p3_find_n_smallest_number,0.0342467,0.037707406,0.051,0.037707406,0
+100000,prompt_human,"""Python algorithm to find the indexes of the k smallest number in an unsorted array?""",p3_find_n_smallest_number,1.1863484,1.2286353,1.3007044,0.847449152,44.9804153
+1000,prompt_1,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,1.86E-05,0.006464692,0.0174552,0.003992622,61.91595398
+10000,prompt_1,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,1.89E-05,0.108734297,0.2119422,0.037707406,188.3632382
+100000,prompt_1,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.2562686,1.644115914,3.5543639,0.847449152,94.00761805
+1000,prompt_2,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.0018532,0.104850814,2.2056383,0.003992622,2526.114218
+10000,prompt_2,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.0199094,30.10538106,600,0.037707406,79739.43807
+100000,prompt_2,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.2009707,31.48500018,600,0.847449152,3615.267176
+1000,prompt_3,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.0003416,0.053209834,2.2080585,0.003992622,1232.704023
+10000,prompt_3,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.0030819,12.7379888,600,0.037707406,33681.13254
+100000,prompt_3,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.2267109,14.20970599,600,0.847449152,1576.762076
+1000,prompt_4,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.0003381,0.03379326,2.2213447,0.003992622,746.3926713
+10000,prompt_4,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.0030841,7.097774842,600,0.037707406,18723.29122
+100000,prompt_4,"""Python algorithm to find the indexes of the k smallest number in an unsorted array? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p3_find_n_smallest_number,0.2768302,8.67486449,600,0.847449152,923.6442469
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Python algorithm to find the indexes of the k smallest number in an unsorted array? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""""""",p3_find_n_smallest_number,8.50E-06,0.033139535,2.2520367,0.003992622,730.0193457
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Python algorithm to find the indexes of the k smallest number in an unsorted array? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""""""",p3_find_n_smallest_number,8.60E-06,13.42489927,600,0.037707406,35502.81837
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Python algorithm to find the indexes of the k smallest number in an unsorted array? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""""""",p3_find_n_smallest_number,8.60E-06,21.07393221,600,0.847449152,2386.74887
+1000,prompt_6,""""""" How can we approach the problem of Python algorithm to find the indexes of the k smallest number in an unsorted array? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Python algorithm to find the indexes of the k smallest number in an unsorted array?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Python algorithm to find the indexes of the k smallest number in an unsorted array? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters...""""""",p3_find_n_smallest_number,7.30E-05,0.006120533,0.0224032,0.003992622,53.29607962
+10000,prompt_6,""""""" How can we approach the problem of Python algorithm to find the indexes of the k smallest number in an unsorted array? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Python algorithm to find the indexes of the k smallest number in an unsorted array?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Python algorithm to find the indexes of the k smallest number in an unsorted array? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters...""""""",p3_find_n_smallest_number,6.90E-05,0.069862629,0.1861772,0.037707406,85.27561668
+100000,prompt_6,""""""" How can we approach the problem of Python algorithm to find the indexes of the k smallest number in an unsorted array? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Python algorithm to find the indexes of the k smallest number in an unsorted array?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Python algorithm to find the indexes of the k smallest number in an unsorted array? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters...""""""",p3_find_n_smallest_number,7.28E-05,0.847449152,2.7902323,0.847449152,0
+1000,prompt_7,ENSEMBLE_p2-p6,p3_find_n_smallest_number,8.40E-06,0.034698549,2.2124242,0.003992622,769.0667186
+10000,prompt_7,ENSEMBLE_p2-p6,p3_find_n_smallest_number,7.80E-06,7.427592129,600,0.037707406,19597.96631
+100000,prompt_7,ENSEMBLE_p2-p6,p3_find_n_smallest_number,0.2264501,15.96884553,600,0.847449152,1784.342617

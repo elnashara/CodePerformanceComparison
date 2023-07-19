@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p5_find_duplicates_list,0.0031852999236434,0.1484342699915403,0.4549122001044452,0.0040908893945419,3528.41073605125
-10000,prompt_1,p5_find_duplicates_list,0.0393282000441104,216.03076915303012,600.0,0.0471166870806064,458401.6106574906
-100000,prompt_1,p5_find_duplicates_list,0.646267999894917,216.68189000056057,600.0,6.835150737343006,3070.1113600428107
-1000,prompt_2,p5_find_duplicates_list,0.0031846000347286,0.0082035856173523,0.4206296999473125,0.0040908893945419,100.5330583686177
-10000,prompt_2,p5_find_duplicates_list,0.0392417998518794,6.107128771718408,600.0,0.0471166870806064,12861.710914161768
-100000,prompt_2,p5_find_duplicates_list,0.6550078000873327,6.8705031313859815,600.0,6.835150737343006,0.5172145487565062
-1000,prompt_3,p5_find_duplicates_list,0.0031794998794794,0.0040908893945419,0.0107390000484883,0.0040908893945419,0.0
-10000,prompt_3,p5_find_duplicates_list,0.0391834999900311,0.0471166870806064,0.104679400101304,0.0471166870806064,0.0
-100000,prompt_3,p5_find_duplicates_list,0.6541778999380767,6.835150737343006,600.0,6.835150737343006,0.0
-1000,prompt_4,p5_find_duplicates_list,0.0031765999738126,0.0087287721116885,0.4346406999975443,0.0040908893945419,113.37101226287129
-10000,prompt_4,p5_find_duplicates_list,0.0390521001536399,6.11184196441519,600.0,0.0471166870806064,12871.714148660658
-100000,prompt_4,p5_find_duplicates_list,0.647324699908495,6.93075131004088,600.0,6.835150737343006,1.398660781181784
-1000,prompt_5,p5_find_duplicates_list,0.0031759000848978,0.0726028035735626,1.1099036000669005,0.0040908893945419,1674.7437432659478
-10000,prompt_5,p5_find_duplicates_list,0.0391402998939156,54.59849624874624,600.0,0.0471166870806064,115779.31926397985
-100000,prompt_5,p5_find_duplicates_list,0.6477745999582112,67.51633381042366,600.0,6.835150737343006,887.7811975902224
-1000,prompt_6,p5_find_duplicates_list,0.0031820000149309,0.0864453301696498,2.1673723000567406,0.0040908893945419,2013.1182447754736
-10000,prompt_6,p5_find_duplicates_list,0.0391234999988228,20.57007875635032,600.0,0.0471166870806064,43557.7357851145
-100000,prompt_6,p5_find_duplicates_list,0.6494652000255883,21.33193136359036,600.0,6.835150737343006,212.09160095103647
-1000,prompt_7,p5_find_duplicates_list,0.0031833001412451,0.0044176086968967,0.0132659999653697,0.0040908893945419,7.9865102877313525
-10000,prompt_7,p5_find_duplicates_list,0.0391581999137997,0.0496954847477385,0.0834954001475125,0.0471166870806064,5.473215174743374
-100000,prompt_7,p5_find_duplicates_list,0.6515619000419974,6.9057814637374735,600.0,6.835150737343006,1.033345556061922
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""How do I find the duplicates in a list and create another list with them?""",p5_find_duplicates_list_strategy,0.0037422,0.003894024,0.0040776,0.003894024,0
+10000,prompt_human,"""How do I find the duplicates in a list and create another list with them?""",p5_find_duplicates_list_strategy,0.099904,0.1057168,0.1243476,0.047116687,124.3723121
+100000,prompt_human,"""How do I find the duplicates in a list and create another list with them?""",p5_find_duplicates_list_strategy,1.5288869,1.6048094,1.7779767,1.6048094,0
+1000,prompt_1,"""How do I find the duplicates in a list and create another list with them? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.0031853,0.14843427,0.4549122,0.003894024,3711.847847
+10000,prompt_1,"""How do I find the duplicates in a list and create another list with them? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.0393282,216.0307692,600,0.047116687,458401.6115
+100000,prompt_1,"""How do I find the duplicates in a list and create another list with them? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.646268,216.68189,600,1.6048094,13402.0327
+1000,prompt_2,"""How do I find the duplicates in a list and create another list with them? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.0031846,0.008203586,0.4206297,0.003894024,110.671172
+10000,prompt_2,"""How do I find the duplicates in a list and create another list with them? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.0392418,6.107128772,600,0.047116687,12861.71094
+100000,prompt_2,"""How do I find the duplicates in a list and create another list with them? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.6550078,6.870503131,600,1.6048094,328.1195718
+1000,prompt_3,"""How do I find the duplicates in a list and create another list with them? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.0031795,0.004090889,0.010739,0.003894024,5.055567197
+10000,prompt_3,"""How do I find the duplicates in a list and create another list with them? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.0391835,0.047116687,0.1046794,0.047116687,0
+100000,prompt_3,"""How do I find the duplicates in a list and create another list with them? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.6541779,6.835150737,600,1.6048094,325.9166688
+1000,prompt_4,"""How do I find the duplicates in a list and create another list with them? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.0031766,0.008728772,0.4346407,0.003894024,124.1581459
+10000,prompt_4,"""How do I find the duplicates in a list and create another list with them? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.0390521,6.111841964,600,0.047116687,12871.71417
+100000,prompt_4,"""How do I find the duplicates in a list and create another list with them? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p5_find_duplicates_list_strategy,0.6473247,6.93075131,600,1.6048094,331.8737982
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: How do I find the duplicates in a list and create another list with them? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p5_find_duplicates_list_strategy,0.0031759,0.072602804,1.1099036,0.003894024,1764.467297
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: How do I find the duplicates in a list and create another list with them? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p5_find_duplicates_list_strategy,0.0391403,54.59849625,600,0.047116687,115779.3195
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: How do I find the duplicates in a list and create another list with them? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p5_find_duplicates_list_strategy,0.6477746,67.51633381,600,1.6048094,4107.124772
+1000,prompt_6,""""""" How can we approach the problem of How do I find the duplicates in a list and create another list with them? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to How do I find the duplicates in a list and create another list with them?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to How do I find the duplicates in a list and create another list with them? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p5_find_duplicates_list_strategy,0.003182,0.08644533,2.1673723,0.003894024,2119.948567
+10000,prompt_6,""""""" How can we approach the problem of How do I find the duplicates in a list and create another list with them? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to How do I find the duplicates in a list and create another list with them?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to How do I find the duplicates in a list and create another list with them? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p5_find_duplicates_list_strategy,0.0391235,20.57007876,600,0.047116687,43557.73587
+100000,prompt_6,""""""" How can we approach the problem of How do I find the duplicates in a list and create another list with them? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to How do I find the duplicates in a list and create another list with them?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to How do I find the duplicates in a list and create another list with them? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p5_find_duplicates_list_strategy,0.6494652,21.33193136,600,1.6048094,1229.25015
+1000,prompt_7,ENSEMBLE_p2-p6,p5_find_duplicates_list_strategy,0.0031833,0.004417609,0.013266,0.003894024,13.4458596
+10000,prompt_7,ENSEMBLE_p2-p6,p5_find_duplicates_list_strategy,0.0391582,0.049695485,0.0834954,0.047116687,5.473215891
+100000,prompt_7,ENSEMBLE_p2-p6,p5_find_duplicates_list_strategy,0.6515619,6.905781464,600,1.6048094,330.3178598

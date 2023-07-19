@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p15_pascal_triangle,1.0000017937272789e-05,0.0092859571833609,0.0501946000149473,0.0084280837708259,10.178748050708247
-10000,prompt_1,p15_pascal_triangle,9.90001717582345e-06,0.0092954871224355,0.0518268999876454,0.0084130578335315,10.488805691872773
-100000,prompt_1,p15_pascal_triangle,9.800016414374111e-06,0.0092828615919189,0.0515312000061385,0.008404926687702,10.445479619726902
-1000,prompt_2,p15_pascal_triangle,9.599956683814526e-06,0.0088976963265674,0.1059918000246398,0.0084280837708259,5.571996773063398
-10000,prompt_2,p15_pascal_triangle,9.700015652924776e-06,0.0088996785407949,0.1055705000180751,0.0084130578335315,5.784112232343149
-100000,prompt_2,p15_pascal_triangle,9.60001489147544e-06,0.0089075103371964,0.1057664999971166,0.008404926687702,5.979631568110823
-1000,prompt_3,p15_pascal_triangle,9.800016414374111e-06,0.0084280837708259,0.0377587000257335,0.0084280837708259,0.0
-10000,prompt_3,p15_pascal_triangle,1.0000017937272789e-05,0.0084130578335315,0.0385662000044249,0.0084130578335315,0.0
-100000,prompt_3,p15_pascal_triangle,9.899958968162537e-06,0.008404926687702,0.0371304000145755,0.008404926687702,0.0
-1000,prompt_4,p15_pascal_triangle,1.2399978004395962e-05,0.0100016697272575,0.1729620999540202,0.0084280837708259,18.67074413615371
-10000,prompt_4,p15_pascal_triangle,1.1999974958598614e-05,0.0099897923538016,0.1698794999974779,0.0084130578335315,18.7415152905022
-100000,prompt_4,p15_pascal_triangle,1.2199976481497288e-05,0.0099956445354789,0.1704527999972924,0.008404926687702,18.926016928909355
-1000,prompt_5,p15_pascal_triangle,9.500014130026102e-06,0.0179808054268791,2.9879095999640413,0.0084280837708259,113.34393339943145
-10000,prompt_5,p15_pascal_triangle,9.800016414374111e-06,0.0179388749324114,2.9525103000341915,0.0084130578335315,113.22657335021908
-100000,prompt_5,p15_pascal_triangle,9.800016414374111e-06,0.0179139276515244,2.962359800003469,0.008404926687702,113.13603695955933
-1000,prompt_6,p15_pascal_triangle,9.7999582067132e-06,0.0509288028754671,2.949388200009708,0.0084280837708259,504.27499607631916
-10000,prompt_6,p15_pascal_triangle,9.800016414374111e-06,0.0509520224746374,2.967698599968571,0.0084130578335315,505.6302414986438
-100000,prompt_6,p15_pascal_triangle,9.500014130026102e-06,0.0512260588996286,2.98648989998037,0.008404926687702,509.4765701476258
-1000,prompt_7,p15_pascal_triangle,9.90001717582345e-06,0.0162584552345488,0.8699746000347659,0.0084280837708259,92.90808772959751
-10000,prompt_7,p15_pascal_triangle,9.90001717582345e-06,0.0162413094998859,0.8698820000281557,0.0084130578335315,93.04882744480527
-100000,prompt_7,p15_pascal_triangle,9.999959729611874e-06,0.0162443198366636,0.8650366999791004,0.008404926687702,93.27140426378874
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Pascal's Triangle for Python""",p15_pascal_triangle_strategy,0.4580224,0.467962715,0.491693,0.008428084,5452.421108
+10000,prompt_human,"""Pascal's Triangle for Python""",p15_pascal_triangle_strategy,0.4590897,0.47042741,0.51924,0.008413058,5491.633981
+1000000,prompt_human,"""Pascal's Triangle for Python""",p15_pascal_triangle_strategy,0.4601087,0.467704657,0.479118,0.467704657,0
+1000,prompt_1,"""Pascals Triangle for Python. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,1.00E-05,0.009285957,0.0501946,0.008428084,10.17874288
+10000,prompt_1,"""Pascals Triangle for Python. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,9.90E-06,0.009295487,0.0518269,0.008413058,10.48880205
+100000,prompt_1,"""Pascals Triangle for Python. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,9.80E-06,0.009282862,0.0515312,0.008404927,10.44548037
+1000,prompt_2,"""Pascals Triangle for Python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,9.60E-06,0.008897696,0.1059918,0.008428084,5.571990028
+10000,prompt_2,"""Pascals Triangle for Python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,9.70E-06,0.008899679,0.1055705,0.008413058,5.784115597
+100000,prompt_2,"""Pascals Triangle for Python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,9.60E-06,0.00890751,0.1057665,0.008404927,5.979623618
+1000,prompt_3,"""Pascals Triangle for Python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,9.80E-06,0.008428084,0.0377587,0.008428084,0
+10000,prompt_3,"""Pascals Triangle for Python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,1.00E-05,0.008413058,0.0385662,0.008413058,0
+100000,prompt_3,"""Pascals Triangle for Python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,9.90E-06,0.008404927,0.0371304,0.008404927,0
+1000,prompt_4,"""Pascals Triangle for Python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,1.24E-05,0.01000167,0.1729621,0.008428084,18.67074415
+10000,prompt_4,"""Pascals Triangle for Python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,1.20E-05,0.009989792,0.1698795,0.008413058,18.74150874
+100000,prompt_4,"""Pascals Triangle for Python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""",p15_pascal_triangle_strategy,1.22E-05,0.009995645,0.1704528,0.008404927,18.92601804
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Pascals Triangle for Python. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""""""",p15_pascal_triangle_strategy,9.50E-06,0.017980805,2.9879096,0.008428084,113.3439225
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Pascals Triangle for Python. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""""""",p15_pascal_triangle_strategy,9.80E-06,0.017938875,2.9525103,0.008413058,113.2265699
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Pascals Triangle for Python. The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.""""""",p15_pascal_triangle_strategy,9.80E-06,0.017913928,2.9623598,0.008404927,113.1360332
+1000,prompt_6,""""""" How can we approach the problem of Pascals Triangle for Python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Pascals Triangle for Python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Pascals Triangle for Python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter..""""""",p15_pascal_triangle_strategy,9.80E-06,0.050928803,2.9493882,0.008428084,504.2749811
+10000,prompt_6,""""""" How can we approach the problem of Pascals Triangle for Python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Pascals Triangle for Python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Pascals Triangle for Python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter..""""""",p15_pascal_triangle_strategy,9.80E-06,0.050952022,2.9676986,0.008413058,505.6302239
+100000,prompt_6,""""""" How can we approach the problem of Pascals Triangle for Python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Pascals Triangle for Python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Pascals Triangle for Python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single number of raws named ""arg1"" as a parameter..""""""",p15_pascal_triangle_strategy,9.50E-06,0.051226059,2.9864899,0.008404927,509.4765487
+1000,prompt_7,ENSEMBLE_p2-p6,p15_pascal_triangle_strategy,9.90E-06,0.016258455,0.8699746,0.008428084,92.9080797
+10000,prompt_7,ENSEMBLE_p2-p6,p15_pascal_triangle_strategy,9.90E-06,0.016241309,0.869882,0.008413058,93.04881768
+100000,prompt_7,ENSEMBLE_p2-p6,p15_pascal_triangle_strategy,1.00E-05,0.01624432,0.8650367,0.008404927,93.27139903

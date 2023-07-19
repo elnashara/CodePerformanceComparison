@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p6_removing_duplicates,0.0009285998530685,0.0056946448107482,0.163035900099203,0.003610751119675,57.71357875423906
-10000,prompt_1,p6_removing_duplicates,0.0241396999917924,18.030789044840542,600.0,0.0465466444398974,38637.03305964946
-100000,prompt_1,p6_removing_duplicates,0.5178162998054177,18.544258955049912,600.0,1.3762369199888784,1247.461231834979
-1000,prompt_2,p6_removing_duplicates,0.0009300999809056,0.007178541620518,0.474962699925527,0.003610751119675,98.8102027138368
-10000,prompt_2,p6_removing_duplicates,0.0240352998953312,12.037451138001051,600.0,0.0465466444398974,25761.0503138292
-100000,prompt_2,p6_removing_duplicates,0.5153432998340577,12.95920558312945,600.0,1.3762369199888784,841.6405994422948
-1000,prompt_3,p6_removing_duplicates,0.0009288999717682,0.003610751119675,0.0108010999392718,0.003610751119675,0.0
-10000,prompt_3,p6_removing_duplicates,0.0278976999688893,0.0465466444398974,0.299327100161463,0.0465466444398974,0.0
-100000,prompt_3,p6_removing_duplicates,0.5192148999776691,1.3762369199888784,3.2325355000793934,1.3762369199888784,0.0
-1000,prompt_4,p6_removing_duplicates,1.600012183189392e-05,0.0046730981486383,0.3311157999560237,0.003610751119675,29.421773856817936
-10000,prompt_4,p6_removing_duplicates,1.6200123354792595e-05,6.036801033729965,600.0,0.0465466444398974,12869.358170436726
-100000,prompt_4,p6_removing_duplicates,1.6300007700920105e-05,7.264765849069575,600.0,1.3762369199888784,427.8717453044555
-1000,prompt_5,p6_removing_duplicates,9.200070053339005e-06,0.0064767828876893,0.3366906999144703,0.003610751119675,79.37494645912534
-10000,prompt_5,p6_removing_duplicates,8.90018418431282e-06,6.172608753020464,600.0,0.0465466444398974,13161.125108579514
-100000,prompt_5,p6_removing_duplicates,9.09995287656784e-06,7.568259444654021,600.0,1.3762369199888784,449.9241689225414
-1000,prompt_6,p6_removing_duplicates,0.0009300999809056,0.0083101601928882,0.6026834999211133,0.003610751119675,130.15045671816313
-10000,prompt_6,p6_removing_duplicates,0.0156934999395161,0.0535256969873305,0.7823870000429451,0.0465466444398974,14.99367490699504
-100000,prompt_6,p6_removing_duplicates,0.159807699965313,1.4201643075944768,2.705948800081387,1.3762369199888784,3.1918477819904236
-1000,prompt_7,p6_removing_duplicates,0.000929000088945,0.005940605866371,0.5359840001910925,0.003610751119675,64.52548706557509
-10000,prompt_7,p6_removing_duplicates,0.0242359000258147,6.167514406929543,600.0,0.0465466444398974,13150.180504189182
-100000,prompt_7,p6_removing_duplicates,0.5176868000999093,7.5508533226249215,600.0,1.3762369199888784,448.65940689092554
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Removing duplicates in lists""",p6_removing_duplicates_strategy,0.001105,0.001178892,0.0015958,0.001178892,0
+10000,prompt_human,"""Removing duplicates in lists""",p6_removing_duplicates_strategy,0.0306974,0.032139507,0.0378839,0.032139507,0
+100000,prompt_human,"""Removing duplicates in lists""",p6_removing_duplicates_strategy,0.55479919,0.58111297,0.6166734,0.58111297,0
+1000,prompt_1,"""Removing duplicates in lists. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.0009286,0.005694645,0.1630359,0.001178892,383.0506102
+10000,prompt_1,"""Removing duplicates in lists. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.0241397,18.03078904,600,0.032139507,56001.63541
+100000,prompt_1,"""Removing duplicates in lists. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.5178163,18.54425896,600,0.58111297,3091.162462
+1000,prompt_2,"""Removing duplicates in lists. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.0009301,0.007178542,0.4749627,0.001178892,508.9227851
+10000,prompt_2,"""Removing duplicates in lists. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.0240353,12.03745114,600,0.032139507,37353.75167
+100000,prompt_2,"""Removing duplicates in lists. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.5153433,12.95920558,600,0.58111297,2130.066484
+1000,prompt_3,"""Removing duplicates in lists. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.0009289,0.003610751,0.0108011,0.001178892,206.2834424
+10000,prompt_3,"""Removing duplicates in lists. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.0278977,0.046546644,0.2993271,0.032139507,44.82687616
+100000,prompt_3,"""Removing duplicates in lists. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,0.5192149,1.37623692,3.2325355,0.58111297,136.8277755
+1000,prompt_4,"""Removing duplicates in lists. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,1.60E-05,0.004673098,0.3311158,0.001178892,296.3974647
+10000,prompt_4,"""Removing duplicates in lists. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,1.62E-05,6.036801034,600,0.032139507,18683.11647
+100000,prompt_4,"""Removing duplicates in lists. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p6_removing_duplicates_strategy,1.63E-05,7.264765849,600,0.58111297,1150.146912
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Removing duplicates in lists. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p6_removing_duplicates_strategy,9.20E-06,0.006476783,0.3366907,0.001178892,449.3957886
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Removing duplicates in lists. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p6_removing_duplicates_strategy,8.90E-06,6.172608753,600,0.032139507,19105.67342
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Removing duplicates in lists. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p6_removing_duplicates_strategy,9.10E-06,7.568259445,600,0.58111297,1202.373176
+1000,prompt_6,""""""" How can we approach the problem of Removing duplicates in lists. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Removing duplicates in lists.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Removing duplicates in lists. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p6_removing_duplicates_strategy,0.0009301,0.00831016,0.6026835,0.001178892,604.9127486
+10000,prompt_6,""""""" How can we approach the problem of Removing duplicates in lists. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Removing duplicates in lists.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Removing duplicates in lists. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p6_removing_duplicates_strategy,0.0156935,0.053525697,0.782387,0.032139507,66.54174876
+100000,prompt_6,""""""" How can we approach the problem of Removing duplicates in lists. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Removing duplicates in lists.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Removing duplicates in lists. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p6_removing_duplicates_strategy,0.1598077,1.420164308,2.7059488,0.58111297,144.3869577
+1000,prompt_7,ENSEMBLE_p2-p6,p6_removing_duplicates_strategy,0.000929,0.005940606,0.535984,0.001178892,403.9143535
+10000,prompt_7,ENSEMBLE_p2-p6,p6_removing_duplicates_strategy,0.0242359,6.167514407,600,0.032139507,19089.82269
+100000,prompt_7,ENSEMBLE_p2-p6,p6_removing_duplicates_strategy,0.5176868,7.550853323,600,0.58111297,1199.377868

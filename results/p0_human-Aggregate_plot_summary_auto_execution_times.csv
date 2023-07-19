@@ -1,0 +1,45 @@
+Size,prompt_name,prompt,Function,Min,Average,Max
+1000,prompt_human,"""Quickest way to find missing number in an array of numbers.""",p1_find_missing_number,0.0028971,0.003000504,0.0032384
+10000,prompt_human,"""Quickest way to find missing number in an array of numbers.""",p1_find_missing_number,0.0288276,0.030248645,0.033454
+100000,prompt_human,"""Quickest way to find missing number in an array of numbers.""",p1_find_missing_number,0.3758017,0.388259009,0.4038037
+1000,prompt_human,"""Find the Duplicate Number.""",p2_find_duplicate_number,0.0002219,0.000235318,0.0004811
+10000,prompt_human,"""Find the Duplicate Number.""",p2_find_duplicate_number,0.0020993,0.002217869,0.002869
+100000,prompt_human,"""Find the Duplicate Number.""",p2_find_duplicate_number,0.1127556,0.129766086,0.1421572
+1000,prompt_human,"""Python algorithm to find the indexes of the k smallest number in an unsorted array?""",p3_find_n_smallest_number,0.0036634,0.003992622,0.0057573
+10000,prompt_human,"""Python algorithm to find the indexes of the k smallest number in an unsorted array?""",p3_find_n_smallest_number,0.0342467,0.037707406,0.051
+100000,prompt_human,"""Python algorithm to find the indexes of the k smallest number in an unsorted array?""",p3_find_n_smallest_number,1.1863484,1.2286353,1.3007044
+1000,prompt_human,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)""",p4_count_pairs_with_given_sum,0.013736,0.0144197,0.0153683
+10000,prompt_human,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)""",p4_count_pairs_with_given_sum,0.1516778,0.161852917,0.1876067
+100000,prompt_human,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)""",p4_count_pairs_with_given_sum,2.3430463,2.447732568,2.5637543
+1000,prompt_human,"""How do I find the duplicates in a list and create another list with them?""",p5_find_duplicates_list_strategy,0.0037422,0.003894024,0.0040776
+10000,prompt_human,"""How do I find the duplicates in a list and create another list with them?""",p5_find_duplicates_list_strategy,0.099904,0.1057168,0.1243476
+100000,prompt_human,"""How do I find the duplicates in a list and create another list with them?""",p5_find_duplicates_list_strategy,1.5288869,1.6048094,1.7779767
+1000,prompt_human,"""Removing duplicates in lists""",p6_removing_duplicates_strategy,0.001105,0.001178892,0.0015958
+10000,prompt_human,"""Removing duplicates in lists""",p6_removing_duplicates_strategy,0.0306974,0.032139507,0.0378839
+100000,prompt_human,"""Removing duplicates in lists""",p6_removing_duplicates_strategy,0.55479919,0.58111297,0.6166734
+1000,prompt_human,"""Quicksort with Python""",p7_quicksort_strategy,0.0485779,0.052815345,0.0587745
+10000,prompt_human,"""Quicksort with Python""",p7_quicksort_strategy,0.6562693,0.697526207,0.7713445
+100000,prompt_human,"""Quicksort with Python""",p7_quicksort_strategy,40.2670163,44.47332175,104.7236946
+1000,prompt_human,"""How do I reverse a list or loop over it backwards?""",p8_reverse_list_strategy,0.0001947,0.000214512,0.0004351
+10000,prompt_human,"""How do I reverse a list or loop over it backwards?""",p8_reverse_list_strategy,0.0018965,0.002090674,0.0030008
+100000,prompt_human,"""How do I reverse a list or loop over it backwards?""",p8_reverse_list_strategy,0.0296107,0.044110739,0.05955
+1000,prompt_human,"""How to count the frequency of the elements in an unordered list?""",p9_countfrequency_strategy,0.0024294,0.002567255,0.0028307
+10000,prompt_human,"""How to count the frequency of the elements in an unordered list?""",p9_countfrequency_strategy,0.028273,0.032701034,0.0466634
+100000,prompt_human,"""How to count the frequency of the elements in an unordered list?""",p9_countfrequency_strategy,0.592384,0.620843425,0.7747849
+1000,Prompt_human,"""Maximum Product Subarray""",p10_maximum_product_subarray_strategy,0.056698,0.081024479,0.0923107
+10000,Prompt_human,"""Maximum Product Subarray""",p10_maximum_product_subarray_strategy,3.3177673,5.3927327,5.663898
+1000,prompt_human,"""How to find middle element in a python linked list in a single traversal?""",p11_find_middle_element_linkedlist_subarray_strategy,1.48E-05,1.54E-05,1.89E-05
+10000,prompt_human,"""How to find middle element in a python linked list in a single traversal?""",p11_find_middle_element_linkedlist_subarray_strategy,1.49E-05,1.66E-05,2.81E-05
+100000,prompt_human,"""How to find middle element in a python linked list in a single traversal?""",p11_find_middle_element_linkedlist_subarray_strategy,1.68E-05,1.88E-05,2.30E-05
+1000,prompt_human,"""How to detect a loop in a linked list?""",p12_detect_ loop_in_linkedlist_strategy,0.0034827,0.003757853,0.0059596
+10000,prompt_human,"""How to detect a loop in a linked list?""",p12_detect_ loop_in_linkedlist_strategy,0.0392002,0.040567649,0.0441864
+100000,prompt_human,"""How to detect a loop in a linked list?""",p12_detect_ loop_in_linkedlist_strategy,0.4351895,0.449786965,0.6048785
+1000,prompt_human,"""Reversing a linked list in python""",p13_revere_linkedlist_strategy,2.35E-05,2.65E-05,3.89E-05
+10000,prompt_human,"""Reversing a linked list in python""",p13_revere_linkedlist_strategy,0.0001755,0.000211639,0.000355
+1000000,prompt_human,"""Reversing a linked list in python""",p13_revere_linkedlist_strategy,0.0185546,0.020098949,0.0231649
+1000,prompt_human,"""Finding the length of a linked list in python""",p14_find_length_linkedList_strategy,0.001623,0.001676156,0.0017645
+10000,prompt_human,"""Finding the length of a linked list in python""",p14_find_length_linkedList_strategy,0.0170978,0.018066098,0.0234347
+100000,prompt_human,"""Finding the length of a linked list in python""",p14_find_length_linkedList_strategy,0.7912187,0.821509255,0.92539109
+1000,prompt_human,"""Pascal's Triangle for Python""",p15_pascal_triangle_strategy,0.4580224,0.467962715,0.491693
+10000,prompt_human,"""Pascal's Triangle for Python""",p15_pascal_triangle_strategy,0.4590897,0.47042741,0.51924
+1000000,prompt_human,"""Pascal's Triangle for Python""",p15_pascal_triangle_strategy,0.4601087,0.467704657,0.479118

@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p4_sum_array_pairs,0.0040149001870304,0.0059012758605181,0.0170374000445008,0.0058212390288973,1.3749105855898966
-10000,prompt_1,p4_sum_array_pairs,0.0529004000127315,0.067066110469005,0.1285457001067698,0.066308708283227,1.1422363749612985
-100000,prompt_1,p4_sum_array_pairs,0.8484255999792367,7.057482701689844,600.0,1.0506337456864243,571.7357719248669
-1000,prompt_2,p4_sum_array_pairs,1.610000617802143e-05,0.0059245925188995,0.0159281000960618,0.0058212390288973,1.7754551821208726
-10000,prompt_2,p4_sum_array_pairs,1.6200123354792595e-05,0.0671886239594313,0.1416635999921709,0.066308708283227,1.3269986687809951
-100000,prompt_2,p4_sum_array_pairs,1.6399892047047615e-05,1.0641261050296251,1.7823809999972582,1.0506337456864243,1.2842114960228763
-1000,prompt_3,p4_sum_array_pairs,0.004038699902594,0.0058212390288973,0.0132182999514043,0.0058212390288973,0.0
-10000,prompt_3,p4_sum_array_pairs,0.0527343000285327,0.066308708283227,0.1057773001957684,0.066308708283227,0.0
-100000,prompt_3,p4_sum_array_pairs,0.8272553998976946,1.0506337456864243,1.5489107000175864,1.0506337456864243,0.0
-1000,prompt_4,p4_sum_array_pairs,0.0040335000958293,0.0061422323328536,0.0170624000020325,0.0058212390288973,5.514174943905447
-10000,prompt_4,p4_sum_array_pairs,0.0525134999770671,0.068741274626615,0.1485100998543203,0.066308708283227,3.668547324127743
-100000,prompt_4,p4_sum_array_pairs,0.8262597001157701,1.084916742970213,1.5489411999005824,1.0506337456864243,3.263077873192625
-1000,prompt_5,p4_sum_array_pairs,0.0013685999438166,0.006482499000367,0.014946199953556,0.0058212390288973,11.359436851624357
-10000,prompt_5,p4_sum_array_pairs,0.0073343999683856,0.0700056058996488,0.151789000025019,0.066308708283227,5.575282209737955
-100000,prompt_5,p4_sum_array_pairs,0.0110049999784678,1.1011554150215366,2.2580256001092494,1.0506337456864243,4.808685190489887
-1000,prompt_6,p4_sum_array_pairs,0.0042091999202966,0.0065511836700765,0.0161625999026,0.0058212390288973,12.53933462542374
-10000,prompt_6,p4_sum_array_pairs,0.0532889999449253,0.0710319316717107,0.1626014001667499,0.066308708283227,7.123081584260695
-100000,prompt_6,p4_sum_array_pairs,0.6707542000804096,1.1102920439658917,1.448912899941206,1.0506337456864243,5.6783154476434605
-1000,prompt_7,p4_sum_array_pairs,0.0039954001549631,0.0062561145253629,0.0161288001108914,0.0058212390288973,7.470497162319361
-10000,prompt_7,p4_sum_array_pairs,0.0532990000210702,0.0693377059397541,0.1305875999387353,0.066308708283227,4.568023921668344
-100000,prompt_7,p4_sum_array_pairs,0.8376231000293046,1.0904639376654297,1.4979721000418067,1.0506337456864243,3.791063455037094
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)""",p4_count_pairs_with_given_sum,0.013736,0.0144197,0.0153683,0.005821239,147.7084346
+10000,prompt_human,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)""",p4_count_pairs_with_given_sum,0.1516778,0.161852917,0.1876067,0.066308708,144.0899874
+100000,prompt_human,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)""",p4_count_pairs_with_given_sum,2.3430463,2.447732568,2.5637543,1.050633746,132.9767702
+1000,prompt_1,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.0040149,0.005901276,0.0170374,0.005821239,1.374913485
+10000,prompt_1,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.0529004,0.06706611,0.1285457,0.066308708,1.1422361
+100000,prompt_1,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.8484256,7.057482702,600,1.050633746,571.7357718
+1000,prompt_2,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,1.61E-05,0.005924593,0.0159281,0.005821239,1.775463952
+10000,prompt_2,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,1.62E-05,0.067188624,0.1416636,0.066308708,1.326999163
+100000,prompt_2,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,1.64E-05,1.064126105,1.782381,1.050633746,1.284211463
+1000,prompt_3,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.0040387,0.005821239,0.0132183,0.005821239,0
+10000,prompt_3,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.0527343,0.066308708,0.1057773,0.066308708,0
+100000,prompt_3,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.8272554,1.050633746,1.5489107,1.050633746,0
+1000,prompt_4,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.0040335,0.006142232,0.0170624,0.005821239,5.51416975
+10000,prompt_4,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.0525135,0.068741275,0.1485101,0.066308708,3.66854833
+100000,prompt_4,"""Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""",p4_count_pairs_with_given_sum,0.8262597,1.084916743,1.5489412,1.050633746,3.263077845
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""""""",p4_count_pairs_with_given_sum,0.0013686,0.006482499,0.0149462,0.005821239,11.3594374
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""""""",p4_count_pairs_with_given_sum,0.0073344,0.070005606,0.151789,0.066308708,5.575282812
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..""""""",p4_count_pairs_with_given_sum,0.011005,1.101155415,2.2580256,1.050633746,4.808685157
+1000,prompt_6,""""""" How can we approach the problem of Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters...""""""",p4_count_pairs_with_given_sum,0.0042092,0.006551184,0.0161626,0.005821239,12.53934085
+10000,prompt_6,""""""" How can we approach the problem of Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters...""""""",p4_count_pairs_with_given_sum,0.053289,0.071031932,0.1626014,0.066308708,7.123082537
+100000,prompt_6,""""""" How can we approach the problem of Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!)? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Count pairs of elements in an array whose sum equals a given sum (but) do it in a single iteration(!) in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a first argument and ""arg2"" as a second argument as a parameters...""""""",p4_count_pairs_with_given_sum,0.6707542,1.110292044,1.4489129,1.050633746,5.678315419
+1000,prompt_7,ENSEMBLE_p2-p6,p4_count_pairs_with_given_sum,0.0039954,0.006256115,0.0161288,0.005821239,7.470505849
+10000,prompt_7,ENSEMBLE_p2-p6,p4_count_pairs_with_given_sum,0.053299,0.069337706,0.1305876,0.066308708,4.568024459
+100000,prompt_7,ENSEMBLE_p2-p6,p4_count_pairs_with_given_sum,0.8376231,1.090463938,1.4979721,1.050633746,3.791063456

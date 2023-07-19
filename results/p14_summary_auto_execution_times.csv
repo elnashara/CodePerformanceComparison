@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p14_find_length_linkedList,0.0014534999500028,0.0017554246081271,0.0030603999621234,0.0016849895300226,4.180149303571942
-10000,prompt_1,p14_find_length_linkedList,0.0151842000195756,0.0183535751754047,0.0340134999714791,0.0175979184299648,4.294012092664374
-100000,prompt_1,p14_find_length_linkedList,0.1601176999974995,0.1914477840001927,0.383114000025671,0.1838169764098769,4.15130731630605
-1000,prompt_2,p14_find_length_linkedList,0.001405999995768,0.0016977326602124,0.0050698000122793,0.0016849895300226,0.7562735532029656
-10000,prompt_2,p14_find_length_linkedList,0.0146126000327058,0.0176693414224577,0.0366211000364273,0.0175979184299648,0.4058604588783816
-100000,prompt_2,p14_find_length_linkedList,0.1578766999882646,0.1843982008558135,0.3870710000046529,0.1838169764098769,0.31619737049779584
-1000,prompt_3,p14_find_length_linkedList,0.0014638999709859,0.0016849895300226,0.005131599958986,0.0016849895300226,0.0
-10000,prompt_3,p14_find_length_linkedList,0.0151590000023134,0.0175979184299648,0.0286990000167861,0.0175979184299648,0.0
-100000,prompt_3,p14_find_length_linkedList,0.1607212999952025,0.1838169764098769,0.316087500017602,0.1838169764098769,0.0
-1000,prompt_4,p14_find_length_linkedList,0.0014505000435747,0.0016878151119393,0.0037117999745532,0.0016849895300226,0.1676913634390334
-10000,prompt_4,p14_find_length_linkedList,0.0151801999891176,0.0177290253672565,0.0377809000201523,0.0175979184299648,0.7450138936231008
-100000,prompt_4,p14_find_length_linkedList,0.159072800015565,0.1847549191527115,0.2878209000336937,0.1838169764098769,0.5102590419848723
-1000,prompt_5,p14_find_length_linkedList,0.0014374000020325,0.0017093514376149,0.0048436000361107,0.0016849895300226,1.4458195233992497
-10000,prompt_5,p14_find_length_linkedList,0.0151633999776095,0.0177219987709819,0.0341210999758914,0.0175979184299648,0.705085328761504
-100000,prompt_5,p14_find_length_linkedList,0.1595072000054642,0.1858464488544874,0.3123817999730818,0.1838169764098769,1.1040723682045308
-1000,prompt_6,p14_find_length_linkedList,0.0014487000298686,0.0017407442683594,0.0038565000286325,0.0016849895300226,3.3089071085238246
-10000,prompt_6,p14_find_length_linkedList,0.0152001000242307,0.0181550328750848,0.0300013000378385,0.0175979184299648,3.165797405739624
-100000,prompt_6,p14_find_length_linkedList,0.1581966999801807,0.1898732704464366,0.2968393000192009,0.1838169764098769,3.2947414079183335
-1000,prompt_7,p14_find_length_linkedList,0.0014543000143021,0.0017459121526095,0.0041449000127613,0.0016849895300226,3.6156083762777325
-10000,prompt_7,p14_find_length_linkedList,0.0151734999963082,0.0182553733177961,0.036426400009077,0.0175979184299648,3.7359809937055997
-100000,prompt_7,p14_find_length_linkedList,0.1604337000171654,0.1917474031293668,0.3124862999538891,0.1838169764098769,4.314305933205298
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Finding the length of a linked list in python""",p14_find_length_linkedList_strategy,0.001623,0.001676156,0.0017645,0.001676156,0
+10000,prompt_human,"""Finding the length of a linked list in python""",p14_find_length_linkedList_strategy,0.0170978,0.018066098,0.0234347,0.017597918,2.660428353
+100000,prompt_human,"""Finding the length of a linked list in python""",p14_find_length_linkedList_strategy,0.7912187,0.821509255,0.92539109,0.183816976,346.9169676
+1000,prompt_1,"""Finding the length of a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.0014535,0.001755425,0.0030604,0.001676156,4.729213749
+10000,prompt_1,"""Finding the length of a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.0151842,0.018353575,0.0340135,0.017597918,4.294013644
+100000,prompt_1,"""Finding the length of a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.1601177,0.191447784,0.383114,0.183816976,4.151307548
+1000,prompt_2,"""Finding the length of a linked list in python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.001406,0.001697733,0.0050698,0.001676156,1.287290682
+10000,prompt_2,"""Finding the length of a linked list in python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.0146126,0.017669341,0.0366211,0.017597918,0.405860511
+100000,prompt_2,"""Finding the length of a linked list in python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.1578767,0.184398201,0.387071,0.183816976,0.316197673
+1000,prompt_3,"""Finding the length of a linked list in python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.0014639,0.00168499,0.0051316,0.001676156,0.527039249
+10000,prompt_3,"""Finding the length of a linked list in python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.015159,0.017597918,0.028699,0.017597918,0
+100000,prompt_3,"""Finding the length of a linked list in python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.1607213,0.183816976,0.3160875,0.183816976,0
+1000,prompt_4,"""Finding the length of a linked list in python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.0014505,0.001687815,0.0037118,0.001676156,0.695579648
+10000,prompt_4,"""Finding the length of a linked list in python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.0151802,0.017729025,0.0377809,0.017597918,0.745014268
+100000,prompt_4,"""Finding the length of a linked list in python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p14_find_length_linkedList_strategy,0.1590728,0.184754919,0.2878209,0.183816976,0.510259183
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Finding the length of a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""""""",p14_find_length_linkedList_strategy,0.0014374,0.001709351,0.0048436,0.001676156,1.980424256
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Finding the length of a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""""""",p14_find_length_linkedList_strategy,0.0151634,0.017721999,0.0341211,0.017597918,0.705089091
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Finding the length of a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""""""",p14_find_length_linkedList_strategy,0.1595072,0.185846449,0.3123818,0.183816976,1.104072673
+1000,prompt_6,""""""" How can we approach the problem of Finding the length of a linked list in python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Finding the length of a linked list in python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Finding the length of a linked list in python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter..""""""",p14_find_length_linkedList_strategy,0.0014487,0.001740744,0.0038565,0.001676156,3.85334062
+10000,prompt_6,""""""" How can we approach the problem of Finding the length of a linked list in python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Finding the length of a linked list in python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Finding the length of a linked list in python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter..""""""",p14_find_length_linkedList_strategy,0.0152001,0.018155033,0.0300013,0.017597918,3.165800636
+100000,prompt_6,""""""" How can we approach the problem of Finding the length of a linked list in python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Finding the length of a linked list in python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Finding the length of a linked list in python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter..""""""",p14_find_length_linkedList_strategy,0.1581967,0.18987327,0.2968393,0.183816976,3.294741395
+1000,prompt_7,ENSEMBLE_p2-p6,p14_find_length_linkedList_strategy,0.0014543,0.001745912,0.0041449,0.001676156,4.161665143
+10000,prompt_7,ENSEMBLE_p2-p6,p14_find_length_linkedList_strategy,0.0151735,0.018255373,0.0364264,0.017597918,3.735981722
+100000,prompt_7,ENSEMBLE_p2-p6,p14_find_length_linkedList_strategy,0.1604337,0.191747403,0.3124863,0.183816976,4.314306095

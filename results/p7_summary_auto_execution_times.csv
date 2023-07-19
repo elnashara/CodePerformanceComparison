@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p7_quicksort,7.5998250395059586e-06,0.0600364973437454,0.1497553000226616,0.0600364973437454,0.0
-10000,prompt_1,p7_quicksort,0.0012805999722331,0.8951756395464244,2.6013629001099616,0.8453825781228583,5.890003261497275
-100000,prompt_1,p7_quicksort,600.0,600.0,600.0,586.6390080329775,2.277549188524376
-1000,prompt_2,p7_quicksort,0.0353708998300135,0.0630376762376177,0.1357952998951077,0.0600364973437454,4.998924032307767
-10000,prompt_2,p7_quicksort,0.4228122001513839,0.8453825781228583,3.5919854999519885,0.8453825781228583,0.0
-100000,prompt_2,p7_quicksort,5.320494699990377,586.6390080329775,600.0,586.6390080329775,0.0
-1000,prompt_3,p7_quicksort,7.90017656981945e-06,0.0659194350762272,0.1876668999902904,0.0600364973437454,9.79893563543258
-10000,prompt_3,p7_quicksort,0.0013035999145358,0.9357158447989572,2.0650728999171406,0.8453825781228583,10.685489506618488
-100000,prompt_3,p7_quicksort,4.268862399971113,593.6629341765214,600.0,586.6390080329775,1.197316586071459
-1000,prompt_4,p7_quicksort,7.5998250395059586e-06,0.0614454759483729,0.2042660000734031,0.0600364973437454,2.346870098967035
-10000,prompt_4,p7_quicksort,0.0021863000001758,1.2993666063748484,2.17228790000081,0.8453825781228583,53.70160682280031
-100000,prompt_4,p7_quicksort,600.0,600.0,600.0,586.6390080329775,2.277549188524376
-1000,prompt_5,p7_quicksort,0.0435505998320877,0.0854596070660277,1.2622157000005243,0.0600364973437454,42.3460908732226
-10000,prompt_5,p7_quicksort,0.5905663999728858,1.561547657337379,6.296226100064814,0.8453825781228583,84.71490869905783
-100000,prompt_5,p7_quicksort,600.0,600.0,600.0,586.6390080329775,2.277549188524376
-1000,prompt_6,p7_quicksort,7.899943739175797e-06,0.0646687298339742,0.3438178999349475,0.0600364973437454,7.715694111377715
-10000,prompt_6,p7_quicksort,0.0020504998974502,9.202099763182954,600.0,0.8453825781228583,988.5130592134848
-100000,prompt_6,p7_quicksort,0.0403678000438958,592.1058248136842,600.0,586.6390080329775,0.931887703655637
-1000,prompt_7,p7_quicksort,6.5998174250125885e-06,0.0650032981707898,0.276841000188142,0.0600364973437454,8.27296902183758
-10000,prompt_7,p7_quicksort,6.5998174250125885e-06,1.3204408683560012,3.69260590011254,0.8453825781228583,56.194473665165035
-100000,prompt_7,p7_quicksort,6.600050255656242e-06,592.5925926780864,600.0,586.6390080329775,1.0148634106469465
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Quicksort with Python""",p7_quicksort_strategy,0.0485779,0.052815345,0.0587745,0.052815345,0
+10000,prompt_human,"""Quicksort with Python""",p7_quicksort_strategy,0.6562693,0.697526207,0.7713445,0.697526207,0
+100000,prompt_human,"""Quicksort with Python""",p7_quicksort_strategy,40.2670163,44.47332175,104.7236946,44.47332175,0
+1000,prompt_1,"""Quicksort with Python. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,7.60E-06,0.060036497,0.1497553,0.052815345,13.67245069
+10000,prompt_1,"""Quicksort with Python. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,0.0012806,0.89517564,2.6013629,0.697526207,28.33577162
+100000,prompt_1,"""Quicksort with Python. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,600,600,600,44.47332175,1249.123421
+1000,prompt_2,"""Quicksort with Python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,0.0353709,0.063037676,0.1357953,0.052815345,19.35485038
+10000,prompt_2,"""Quicksort with Python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,0.4228122,0.845382578,3.5919855,0.697526207,21.19724958
+100000,prompt_2,"""Quicksort with Python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,5.3204947,586.639008,600,44.47332175,1219.080709
+1000,prompt_3,"""Quicksort with Python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,7.90E-06,0.065919435,0.1876669,0.052815345,24.81114153
+10000,prompt_3,"""Quicksort with Python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,0.0013036,0.935715845,2.0650729,0.697526207,34.14776902
+100000,prompt_3,"""Quicksort with Python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,4.2688624,593.6629342,600,44.47332175,1234.874282
+1000,prompt_4,"""Quicksort with Python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,7.60E-06,0.061445476,0.204266,0.052815345,16.34019621
+10000,prompt_4,"""Quicksort with Python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,0.0021863,1.299366606,2.1722879,0.697526207,86.28212001
+100000,prompt_4,"""Quicksort with Python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p7_quicksort_strategy,600,600,600,44.47332175,1249.123421
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Quicksort with Python. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p7_quicksort_strategy,0.0435506,0.085459607,1.2622157,0.052815345,61.80829075
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Quicksort with Python. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p7_quicksort_strategy,0.5905664,1.561547657,6.2962261,0.697526207,123.8693889
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Quicksort with Python. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p7_quicksort_strategy,600,600,600,44.47332175,1249.123421
+1000,prompt_6,""""""" How can we approach the problem of Quicksort with Python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Quicksort with Python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Quicksort with Python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p7_quicksort_strategy,7.90E-06,0.06466873,0.3438179,0.052815345,22.44307029
+10000,prompt_6,""""""" How can we approach the problem of Quicksort with Python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Quicksort with Python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Quicksort with Python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p7_quicksort_strategy,0.0020505,9.202099763,600,0.697526207,1219.247889
+100000,prompt_6,""""""" How can we approach the problem of Quicksort with Python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Quicksort with Python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Quicksort with Python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p7_quicksort_strategy,0.0403678,592.1058248,600,44.47332175,1231.37306
+1000,prompt_7,ENSEMBLE_p2-p6,p7_quicksort_strategy,6.60E-06,0.065003298,0.276841,0.052815345,23.0765377
+10000,prompt_7,ENSEMBLE_p2-p6,p7_quicksort_strategy,6.60E-06,1.320440868,3.6926059,0.697526207,89.30340606
+100000,prompt_7,ENSEMBLE_p2-p6,p7_quicksort_strategy,6.60E-06,592.5925927,600,44.47332175,1232.467577

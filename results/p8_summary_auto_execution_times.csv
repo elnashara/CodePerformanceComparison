@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p8_reverse_list,2.639996819198132e-05,0.0004936617067685,0.0049547001253813,0.0002987607749302,65.23645277189921
-10000,prompt_1,p8_reverse_list,0.0002251998521387,0.0049839270187099,0.0333491000346839,0.0030416978772596,63.85345355864666
-100000,prompt_1,p8_reverse_list,0.002195400185883,0.0570054287368177,0.3331877999007702,0.0394067952446924,44.65888023334153
-1000,prompt_2,p8_reverse_list,2.689985558390617e-05,0.0002987607749302,0.0023868000134825,0.0002987607749302,0.0
-10000,prompt_2,p8_reverse_list,0.00022459984757,0.0030416978772596,0.0237225999590009,0.0030416978772596,0.0
-100000,prompt_2,p8_reverse_list,0.002193700056523,0.0394067952446924,0.2469285000115633,0.0394067952446924,0.0
-1000,prompt_3,p8_reverse_list,2.689985558390617e-05,0.0004504800010623,0.006020399974659,0.0002987607749302,50.78284663291104
-10000,prompt_3,p8_reverse_list,0.0002254999708384,0.0046300664670137,0.033619400113821,0.0030416978772596,52.219801369133066
-100000,prompt_3,p8_reverse_list,0.002204299904406,0.0558875657181487,0.3172387001104653,0.0394067952446924,41.82215369486574
-1000,prompt_4,p8_reverse_list,2.689985558390617e-05,0.0004887935050734,0.0047180999536067,0.0002987607749302,63.606987961387404
-10000,prompt_4,p8_reverse_list,0.000227500218898,0.0050010558897911,0.0354666002094745,0.0030416978772596,64.41658874736017
-100000,prompt_4,p8_reverse_list,0.0022013001143932,0.0597617984743496,0.3351143000181764,0.0394067952446924,51.65353615604853
-1000,prompt_5,p8_reverse_list,2.5899847969412804e-05,0.0014520278353765,0.0050847001839429,0.0002987607749302,386.0168928520619
-10000,prompt_5,p8_reverse_list,0.0002250000834465,0.0143222014725995,0.0460053000133484,0.0030416978772596,370.862066205701
-100000,prompt_5,p8_reverse_list,0.0021975999698042,0.1495885565711164,0.4204325000755489,0.0394067952446924,279.60091817226396
-1000,prompt_6,p8_reverse_list,2.7099857106804848e-05,8.576376054628684,600.0,0.0002987607749302,2870549.956183973
-10000,prompt_6,p8_reverse_list,0.0002342998050153,8.632893314829563,600.0,0.0030416978772596,283718.23781286646
-100000,prompt_6,p8_reverse_list,0.0022101998329162,17.66326305765941,600.0,0.0394067952446924,44722.88637779656
-1000,prompt_7,p8_reverse_list,1.6900012269616127e-05,0.0010059590440169,0.013143999967724,0.0002987607749302,236.71054851558875
-10000,prompt_7,p8_reverse_list,1.6399892047047615e-05,0.0100452912808133,0.1245318001601845,0.0030416978772596,230.25276296880435
-100000,prompt_7,p8_reverse_list,1.6700010746717453e-05,0.1105288970461795,1.52178640011698,0.0394067952446924,180.48182137081133
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""How do I reverse a list or loop over it backwards?""",p8_reverse_list_strategy,0.0001947,0.000214512,0.0004351,0.000214512,0
+10000,prompt_human,"""How do I reverse a list or loop over it backwards?""",p8_reverse_list_strategy,0.0018965,0.002090674,0.0030008,0.002090674,0
+100000,prompt_human,"""How do I reverse a list or loop over it backwards?""",p8_reverse_list_strategy,0.0296107,0.044110739,0.05955,0.039406795,11.9368855
+1000,prompt_1,"""How do I reverse a list or loop over it backwards? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,2.64E-05,0.000493662,0.0049547,0.000214512,130.13258
+10000,prompt_1,"""How do I reverse a list or loop over it backwards? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,0.0002252,0.004983927,0.0333491,0.002090674,138.3885292
+100000,prompt_1,"""How do I reverse a list or loop over it backwards? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,0.0021954,0.057005429,0.3331878,0.039406795,44.6588818
+1000,prompt_2,"""How do I reverse a list or loop over it backwards? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,2.69E-05,0.000298761,0.0023868,0.000214512,39.27472589
+10000,prompt_2,"""How do I reverse a list or loop over it backwards? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,0.0002246,0.003041698,0.0237226,0.002090674,45.48887105
+100000,prompt_2,"""How do I reverse a list or loop over it backwards? The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,0.0021937,0.039406795,0.2469285,0.039406795,0
+1000,prompt_3,"""How do I reverse a list or loop over it backwards? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,2.69E-05,0.00045048,0.0060204,0.000214512,110.0022376
+10000,prompt_3,"""How do I reverse a list or loop over it backwards? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,0.0002255,0.004630066,0.0336194,0.002090674,121.4628393
+100000,prompt_3,"""How do I reverse a list or loop over it backwards? The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,0.0022043,0.055887566,0.3172387,0.039406795,41.82215529
+1000,prompt_4,"""How do I reverse a list or loop over it backwards? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,2.69E-05,0.000488794,0.0047181,0.000214512,127.8632431
+10000,prompt_4,"""How do I reverse a list or loop over it backwards? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,0.0002275,0.005001056,0.0354666,0.002090674,139.2078344
+100000,prompt_4,"""How do I reverse a list or loop over it backwards? The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p8_reverse_list_strategy,0.0022013,0.059761798,0.3351143,0.039406795,51.65353589
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: How do I reverse a list or loop over it backwards? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p8_reverse_list_strategy,2.59E-05,0.001452028,0.0050847,0.000214512,576.8982621
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: How do I reverse a list or loop over it backwards? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p8_reverse_list_strategy,0.000225,0.014322201,0.0460053,0.002090674,585.0518541
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: How do I reverse a list or loop over it backwards? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p8_reverse_list_strategy,0.0021976,0.149588557,0.4204325,0.039406795,279.6009216
+1000,prompt_6,""""""" How can we approach the problem of How do I reverse a list or loop over it backwards? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to How do I reverse a list or loop over it backwards?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to How do I reverse a list or loop over it backwards? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p8_reverse_list_strategy,2.71E-05,8.576376055,600,0.000214512,3997986.846
+10000,prompt_6,""""""" How can we approach the problem of How do I reverse a list or loop over it backwards? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to How do I reverse a list or loop over it backwards?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to How do I reverse a list or loop over it backwards? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p8_reverse_list_strategy,0.0002343,8.632893315,600,0.002090674,412823.9334
+100000,prompt_6,""""""" How can we approach the problem of How do I reverse a list or loop over it backwards? with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to How do I reverse a list or loop over it backwards?? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to How do I reverse a list or loop over it backwards? in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p8_reverse_list_strategy,0.0022102,17.66326306,600,0.039406795,44722.88666
+1000,prompt_7,ENSEMBLE_p2-p6,p8_reverse_list_strategy,1.69E-05,0.001005959,0.013144,0.000214512,368.9523197
+10000,prompt_7,ENSEMBLE_p2-p6,p8_reverse_list_strategy,1.64E-05,0.010045291,0.1245318,0.002090674,380.4809836
+100000,prompt_7,ENSEMBLE_p2-p6,p8_reverse_list_strategy,1.67E-05,0.110528897,1.5217864,0.039406795,180.481823

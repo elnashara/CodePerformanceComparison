@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,1,0.0002116,0.0005892712699999,0.0055696,0.000284347074074,107.23662162479116
-10000,prompt_1,1,0.0019664,0.0057577714499999,0.0644864,0.0026318185308641,118.77539740969382
-100000,prompt_1,1,0.0639722,0.10658363353,0.9374449,0.0718321297777778,48.37877403848471
-1000,prompt_2,1,0.0002103,0.00136028506,0.0064942,0.000284347074074,378.3889774248186
-10000,prompt_2,1,0.0019652,0.0132735418,0.0615587,0.0026318185308641,404.3486716252402
-100000,prompt_2,1,0.0404637,0.16712825756,0.5861776,0.0718321297777778,132.66504567946598
-1000,prompt_3,1,7.78e-05,0.0030503029099999,0.220621,0.000284347074074,972.7393344677333
-10000,prompt_3,1,0.000113,0.0095931406262626,0.05039,0.0026318185308641,264.50615852730937
-100000,prompt_3,1,0.0001414,0.1461276104747474,0.8659651,0.0718321297777778,103.42931627784462
-1000,prompt_4,1,0.0002115,0.00112329731,0.0062214,0.000284347074074,295.044441254798
-10000,prompt_4,1,0.0019671,0.01100055069,0.0541509,0.0026318185308641,317.9828723368784
-100000,prompt_4,1,0.0638897,0.1471999404599999,0.458734,0.0718321297777778,104.92214405361835
-1000,prompt_5,1,0.0001163,0.0030492963505154,0.2109584,0.000284347074074,972.3853447220051
-10000,prompt_5,1,0.0001542,0.0152794863958333,0.1051476,0.0026318185308641,480.56762716145994
-100000,prompt_5,1,0.0001859,0.2631289942187501,1.4613828,0.0718321297777778,266.3110018215727
-1000,prompt_6,1,0.0002107,0.000284347074074,0.0043716,0.000284347074074,0.0
-10000,prompt_6,1,0.0019663,0.0026318185308641,0.0491799,0.0026318185308641,0.0
-100000,prompt_6,1,0.0639189,0.0718321297777778,0.4430782,0.0718321297777778,0.0
-1000,prompt_7,1,5.2e-05,0.0009312694795918,0.0072059,0.000284347074074,227.51153941870405
-10000,prompt_7,1,4.76e-05,0.010340111632653,0.0990509,0.0026318185308641,292.8884727951988
-100000,prompt_7,1,4.82e-05,0.1651108886734694,1.3417987,0.0718321297777778,129.8565964621428
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Quickest way to find missing number in an array of numbers.""",p1_find_missing_number,0.0028971,0.003000504,0.0032384,0.000284347,955.2261849
+10000,prompt_human,"""Quickest way to find missing number in an array of numbers.""",p1_find_missing_number,0.0288276,0.030248645,0.033454,0.002631819,1049.343667
+100000,prompt_human,"""Quickest way to find missing number in an array of numbers.""",p1_find_missing_number,0.3758017,0.388259009,0.4038037,0.07183213,440.508835
+1000,prompt_1,"""Quickest way to find missing number in an array of numbers. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0002116,0.000589271,0.0055696,0.000284347,107.2365807
+10000,prompt_1,"""Quickest way to find missing number in an array of numbers. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0019664,0.005757771,0.0644864,0.002631819,118.7753413
+100000,prompt_1,"""Quickest way to find missing number in an array of numbers. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0639722,0.106583634,0.9374449,0.07183213,48.37877423
+1000,prompt_2,"""Quickest way to find missing number in an array of numbers. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0002103,0.001360285,0.0064942,0.000284347,378.3890809
+10000,prompt_2,"""Quickest way to find missing number in an array of numbers. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0019652,0.013273542,0.0615587,0.002631819,404.3485893
+100000,prompt_2,"""Quickest way to find missing number in an array of numbers. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0404637,0.167128258,0.5861776,0.07183213,132.6650456
+1000,prompt_3,"""Quickest way to find missing number in an array of numbers. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,7.78E-05,0.003050303,0.220621,0.000284347,972.7396456
+10000,prompt_3,"""Quickest way to find missing number in an array of numbers. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.000113,0.009593141,0.05039,0.002631819,264.5061078
+100000,prompt_3,"""Quickest way to find missing number in an array of numbers. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0001414,0.14612761,0.8659651,0.07183213,103.429315
+1000,prompt_4,"""Quickest way to find missing number in an array of numbers. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0002115,0.001123297,0.0062214,0.000284347,295.0444351
+10000,prompt_4,"""Quickest way to find missing number in an array of numbers. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0019671,0.011000551,0.0541509,0.002631819,317.9828096
+100000,prompt_4,"""Quickest way to find missing number in an array of numbers. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p1_find_missing_number,0.0638897,0.14719994,0.458734,0.07183213,104.9221428
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Quickest way to find missing number in an array of numbers. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p1_find_missing_number,0.0001163,0.003049296,0.2109584,0.000284347,972.3855008
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Quickest way to find missing number in an array of numbers. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p1_find_missing_number,0.0001542,0.015279486,0.1051476,0.002631819,480.5675086
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Quickest way to find missing number in an array of numbers. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p1_find_missing_number,0.0001859,0.263128994,1.4613828,0.07183213,266.3110004
+1000,prompt_6,""""""" How can we approach the problem of Quickest way to find missing number in an array of numbers. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Quickest way to find missing number in an array of numbers.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Quickest way to find missing number in an array of numbers. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p1_find_missing_number,0.0002107,0.000284347,0.0043716,0.000284347,0
+10000,prompt_6,""""""" How can we approach the problem of Quickest way to find missing number in an array of numbers. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Quickest way to find missing number in an array of numbers.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Quickest way to find missing number in an array of numbers. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p1_find_missing_number,0.0019663,0.002631819,0.0491799,0.002631819,0
+100000,prompt_6,""""""" How can we approach the problem of Quickest way to find missing number in an array of numbers. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Quickest way to find missing number in an array of numbers.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Quickest way to find missing number in an array of numbers. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p1_find_missing_number,0.0639189,0.07183213,0.4430782,0.07183213,0
+1000,prompt_7,ENSEMBLE_p2-p6,p1_find_missing_number,5.20E-05,0.000931269,0.0072059,0.000284347,227.5114561
+10000,prompt_7,ENSEMBLE_p2-p6,p1_find_missing_number,4.76E-05,0.010340112,0.0990509,0.002631819,292.8884167
+100000,prompt_7,ENSEMBLE_p2-p6,p1_find_missing_number,4.82E-05,0.165110889,1.3417987,0.07183213,129.8565962

@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,p13_revere_linkedlist,7.700000423938036e-06,1.0749636308497024e-05,7.079995702952147e-05,9.94614441113203e-06,8.078425811570773
-10000,prompt_1,p13_revere_linkedlist,7.499998901039362e-06,1.477577788237896e-05,0.0006086000357754,1.3866157877553064e-05,6.560000346587824
-100000,prompt_1,p13_revere_linkedlist,7.399998139590025e-06,6.535672714388127e-05,0.0078098999802023,6.22849339254715e-05,4.93183989259006
-1000,prompt_2,p13_revere_linkedlist,7.399998139590025e-06,1.0358299908693874e-05,8.080003317445517e-05,9.94614441113203e-06,4.143872042522794
-10000,prompt_2,p13_revere_linkedlist,7.499998901039362e-06,1.4380499854451045e-05,0.0005806000554002,1.3866157877553064e-05,3.709333049861
-100000,prompt_2,p13_revere_linkedlist,7.399998139590025e-06,6.401358997100034e-05,0.0067790000466629,6.22849339254715e-05,2.7753999829193043
-1000,prompt_3,p13_revere_linkedlist,7.199996616691351e-06,1.0515442994163974e-05,0.0002957999822683,9.94614441113203e-06,5.723811755586086
-10000,prompt_3,p13_revere_linkedlist,7.399998139590025e-06,1.4540484593941145e-05,0.0007295000250451,1.3866157877553064e-05,4.863111485840645
-100000,prompt_3,p13_revere_linkedlist,7.199996616691351e-06,6.552131951560947e-05,0.0083667999715544,6.22849339254715e-05,5.1960970112138805
-1000,prompt_4,p13_revere_linkedlist,7.399998139590025e-06,1.0546106557817532e-05,7.320003351196647e-05,9.94614441113203e-06,6.0321077382910895
-10000,prompt_4,p13_revere_linkedlist,7.199996616691351e-06,1.450032980968938e-05,0.0005742000066675,1.3866157877553064e-05,4.573523089355071
-100000,prompt_4,p13_revere_linkedlist,7.299997378140688e-06,6.488988339465034e-05,0.0069177999976091,6.22849339254715e-05,4.182310721073971
-1000,prompt_5,p13_revere_linkedlist,7.399998139590025e-06,0.0001636532668101,0.011539899976924,9.94614441113203e-06,1545.3940345661404
-10000,prompt_5,p13_revere_linkedlist,7.199996616691351e-06,0.0015883319112601,0.1085673999623395,1.3866157877553064e-05,11354.73695948131
-100000,prompt_5,p13_revere_linkedlist,7.399998139590025e-06,0.0186797135000492,1.326641199993901,6.22849339254715e-05,29890.7414566753
-1000,prompt_6,p13_revere_linkedlist,6.599992047995329e-06,9.94614441113203e-06,0.0001673999940976,9.94614441113203e-06,0.0
-10000,prompt_6,p13_revere_linkedlist,6.799993570894003e-06,1.3866157877553064e-05,0.0005796999903395,1.3866157877553064e-05,0.0
-100000,prompt_6,p13_revere_linkedlist,6.399990525096655e-06,6.22849339254715e-05,0.0069651999510824,6.22849339254715e-05,0.0
-1000,prompt_7,p13_revere_linkedlist,7.299997378140688e-06,1.047417198518111e-05,7.300003198906779e-05,9.94614441113203e-06,5.3088669561050725
-10000,prompt_7,p13_revere_linkedlist,7.199996616691351e-06,1.452259146683519e-05,0.0005677000153809,1.3866157877553064e-05,4.734069776782068
-100000,prompt_7,p13_revere_linkedlist,7.099995855242014e-06,6.399498958270796e-05,0.006776499969419,6.22849339254715e-05,2.7455366000430512
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Reversing a linked list in python""",p13_revere_linkedlist_strategy,2.35E-05,2.65E-05,3.89E-05,9.95E-06,166.3316583
+10000,prompt_human,"""Reversing a linked list in python""",p13_revere_linkedlist_strategy,0.0001755,0.000211639,0.000355,1.39E-05,1422.582734
+1000000,prompt_human,"""Reversing a linked list in python""",p13_revere_linkedlist_strategy,0.0185546,0.020098949,0.0231649,0.020098949,0
+1000,prompt_1,"""Reversing a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.70E-06,1.07E-05,7.08E-05,9.95E-06,7.537688442
+10000,prompt_1,"""Reversing a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.50E-06,1.48E-05,0.0006086,1.39E-05,6.474820144
+100000,prompt_1,"""Reversing a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.40E-06,6.54E-05,0.0078099,6.23E-05,4.975922953
+1000,prompt_2,"""Reversing a linked list in python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.40E-06,1.04E-05,8.08E-05,9.95E-06,4.522613065
+10000,prompt_2,"""Reversing a linked list in python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.50E-06,1.44E-05,0.0005806,1.39E-05,3.597122302
+100000,prompt_2,"""Reversing a linked list in python. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.40E-06,6.40E-05,0.006779,6.23E-05,2.728731942
+1000,prompt_3,"""Reversing a linked list in python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.20E-06,1.05E-05,0.0002958,9.95E-06,5.527638191
+10000,prompt_3,"""Reversing a linked list in python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.40E-06,1.45E-05,0.0007295,1.39E-05,4.316546763
+100000,prompt_3,"""Reversing a linked list in python. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.20E-06,6.55E-05,0.0083668,6.23E-05,5.136436597
+1000,prompt_4,"""Reversing a linked list in python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.40E-06,1.05E-05,7.32E-05,9.95E-06,5.527638191
+10000,prompt_4,"""Reversing a linked list in python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.20E-06,1.45E-05,0.0005742,1.39E-05,4.316546763
+100000,prompt_4,"""Reversing a linked list in python. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""",p13_revere_linkedlist_strategy,7.30E-06,6.49E-05,0.0069178,6.23E-05,4.173354735
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Reversing a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""""""",p13_revere_linkedlist_strategy,7.40E-06,0.000163653,0.0115399,9.95E-06,1544.753769
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Reversing a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""""""",p13_revere_linkedlist_strategy,7.20E-06,0.001588332,0.1085674,1.39E-05,11326.84892
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Reversing a linked list in python. The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.""""""",p13_revere_linkedlist_strategy,7.40E-06,0.018679714,1.3266412,6.23E-05,29883.48957
+1000,prompt_6,""""""" How can we approach the problem of Reversing a linked list in python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Reversing a linked list in python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Reversing a linked list in python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter..""""""",p13_revere_linkedlist_strategy,6.60E-06,9.95E-06,0.0001674,9.95E-06,0
+10000,prompt_6,""""""" How can we approach the problem of Reversing a linked list in python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Reversing a linked list in python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Reversing a linked list in python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter..""""""",p13_revere_linkedlist_strategy,6.80E-06,1.39E-05,0.0005797,1.39E-05,0
+100000,prompt_6,""""""" How can we approach the problem of Reversing a linked list in python. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter.
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Reversing a linked list in python.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Reversing a linked list in python. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single linked list of integers named ""head"" as a parameter..""""""",p13_revere_linkedlist_strategy,6.40E-06,6.23E-05,0.0069652,6.23E-05,0
+1000,prompt_7,ENSEMBLE_p2-p6,p13_revere_linkedlist_strategy,7.30E-06,1.05E-05,7.30E-05,9.95E-06,5.527638191
+10000,prompt_7,ENSEMBLE_p2-p6,p13_revere_linkedlist_strategy,7.20E-06,1.45E-05,0.0005677,1.39E-05,4.316546763
+100000,prompt_7,ENSEMBLE_p2-p6,p13_revere_linkedlist_strategy,7.10E-06,6.40E-05,0.0067765,6.23E-05,2.728731942

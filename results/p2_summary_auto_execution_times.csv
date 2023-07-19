@@ -1,22 +1,70 @@
-Size,prompt_name,Function,Min,Average,Max,Minimum Average,Percentage
-1000,prompt_1,2,0.0002105,0.0019289556363636,0.0066517,0.0010445247613636,84.6730405744904
-10000,prompt_1,2,0.00197,0.0222303382020202,0.046097,0.013272673965909,67.48952214993793
-100000,prompt_1,2,0.0628783,0.3245649249595961,0.6531489,0.3245649249595961,0.0
-1000,prompt_2,2,0.0008785,0.0013615419166666,0.0139135,0.0010445247613636,30.35037244010782
-10000,prompt_2,2,0.0122617,0.017414088,0.1792735,0.013272673965909,31.202559821240726
-100000,prompt_2,2,0.2562951,0.4311153232499999,2.0687612,0.3245649249595961,32.828685448271365
-1000,prompt_3,2,0.0009204,0.0024207040899999,0.0374831,0.0010445247613636,131.75171901523268
-10000,prompt_3,2,0.0040112,0.03143049392,0.3815422,0.013272673965909,136.80604225440587
-100000,prompt_3,2,0.0609897,0.5265479956800001,4.6534894,0.3245649249595961,62.2319465806566
-1000,prompt_4,2,2.06e-05,0.0014042472688172,0.0175154,0.0010445247613636,34.4388683504249
-10000,prompt_4,2,2.22e-05,0.0184172736989247,0.1892451,0.013272673965909,38.76083859386328
-100000,prompt_4,2,2.13e-05,0.4659466651935482,2.0897551,0.3245649249595961,43.56038787972921
-1000,prompt_5,2,1.46e-05,0.0025014191111111,0.0239655,0.0010445247613636,139.47915871765088
-10000,prompt_5,2,1.53e-05,0.0286558186767676,0.3339839,0.013272673965909,115.90087084464189
-100000,prompt_5,2,1.53e-05,0.3400791064646465,4.0416315,0.3245649249595961,4.77999325003517
-1000,prompt_6,2,1.13e-05,0.0010445247613636,0.0057325,0.0010445247613636,0.0
-10000,prompt_6,2,1.25e-05,0.013272673965909,0.0582468,0.013272673965909,0.0
-100000,prompt_6,2,1.16e-05,0.3574588418636363,0.7372918,0.3245649249595961,10.134772544548689
-1000,prompt_7,2,1.08e-05,0.0019328273297872,0.0283907,0.0010445247613636,85.04370612181027
-10000,prompt_7,2,1.18e-05,0.0241180881382978,0.3725365,0.013272673965909,81.71235276512748
-100000,prompt_7,2,1.19e-05,0.4540153669468086,4.3704686,0.3245649249595961,39.88429803476987
+Size,prompt_name,prompt,Function,Min,Average,Max,Minimum Average,Percentage
+1000,prompt_human,"""Find the Duplicate Number.""",p2_find_duplicate_number,0.0002219,0.000235318,0.0004811,0.000235318,0
+10000,prompt_human,"""Find the Duplicate Number.""",p2_find_duplicate_number,0.0020993,0.002217869,0.002869,0.002217869,0
+100000,prompt_human,"""Find the Duplicate Number.""",p2_find_duplicate_number,0.1127556,0.129766086,0.1421572,0.129766086,0
+1000,prompt_1,"""Find the Duplicate Number. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.0002105,0.001928956,0.0066517,0.000235318,719.7230981
+10000,prompt_1,"""Find the Duplicate Number. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.00197,0.022230338,0.046097,0.002217869,902.3287218
+100000,prompt_1,"""Find the Duplicate Number. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.0628783,0.324564925,0.6531489,0.129766086,150.1153691
+1000,prompt_2,"""Find the Duplicate Number. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.0008785,0.001361542,0.0139135,0.000235318,478.5966224
+10000,prompt_2,"""Find the Duplicate Number. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.0122617,0.017414088,0.1792735,0.002217869,685.1720728
+100000,prompt_2,"""Find the Duplicate Number. The implementation should be fast. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.2562951,0.431115323,2.0687612,0.129766086,232.2249567
+1000,prompt_3,"""Find the Duplicate Number. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.0009204,0.002420704,0.0374831,0.000235318,928.6947875
+10000,prompt_3,"""Find the Duplicate Number. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.0040112,0.031430494,0.3815422,0.002217869,1317.148353
+100000,prompt_3,"""Find the Duplicate Number. The implementation should be fast as the size of the list grows. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,0.0609897,0.526547996,4.6534894,0.129766086,305.7670322
+1000,prompt_4,"""Find the Duplicate Number. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,2.06E-05,0.001404247,0.0175154,0.000235318,496.7444054
+10000,prompt_4,"""Find the Duplicate Number. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,2.22E-05,0.018417274,0.1892451,0.002217869,730.40405
+100000,prompt_4,"""Find the Duplicate Number. The implementation should have the most optimal time complexity possible. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""",p2_find_duplicate_number,2.13E-05,0.465946665,2.0897551,0.129766086,259.0665939
+1000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Find the Duplicate Number. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p2_find_duplicate_number,1.46E-05,0.002501419,0.0239655,0.000235318,962.995181
+10000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Find the Duplicate Number. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p2_find_duplicate_number,1.53E-05,0.028655819,0.3339839,0.002217869,1192.042902
+100000,prompt_5,"""""""Please explain your chain of thought to create a solution to the problem: Find the Duplicate Number. The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+First, explain your chain of thought.
+Then, provide a step by step description of the algorithm with the best possible time complexity to solve the task.
+Then, describe how to implement the algorithm step by step in the fastest possible way.
+Finally, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..""""""",p2_find_duplicate_number,1.53E-05,0.340079106,4.0416315,0.129766086,162.0708665
+1000,prompt_6,""""""" How can we approach the problem of Find the Duplicate Number. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Find the Duplicate Number.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Find the Duplicate Number. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p2_find_duplicate_number,1.13E-05,0.001044525,0.0057325,0.000235318,343.8780714
+10000,prompt_6,""""""" How can we approach the problem of Find the Duplicate Number. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Find the Duplicate Number.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Find the Duplicate Number. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p2_find_duplicate_number,1.25E-05,0.013272674,0.0582468,0.002217869,498.4426492
+100000,prompt_6,""""""" How can we approach the problem of Find the Duplicate Number. with a time complexity O(1) runtime? The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter..
+We can follow the steps below in our chain of thought:
+1)	What is the problem statement?
+2)	What is the naive approach to Find the Duplicate Number.? What is its time complexity?
+3)	Can we improve the time complexity to O(1)? If yes, how?
+4)	Can you provide an algorithm to Find the Duplicate Number. in O(1) time complexity?
+5)	Can you explain how the algorithm works step by step?
+6)	Are there any edge cases that need to be considered for the algorithm to work correctly?
+7)	Can you provide an example to demonstrate how the algorithm works?
+8)	How does the O(1) algorithm compare to other algorithms in terms of time?
+9)	Can you think of any potential limitations or drawbacks of the O(1) algorithm?
+10)	Then, describe how to implement the algorithm step by step in the fastest possible way in Python, The Python implementation should be in a function named ""funcImp"" that takes a single list of integers named ""arg1"" as a parameter...""""""",p2_find_duplicate_number,1.16E-05,0.357458842,0.7372918,0.129766086,175.463993
+1000,prompt_7,ENSEMBLE_p2-p6,p2_find_duplicate_number,1.08E-05,0.001932827,0.0283907,0.000235318,721.3681061
+10000,prompt_7,ENSEMBLE_p2-p6,p2_find_duplicate_number,1.18E-05,0.024118088,0.3725365,0.002217869,987.4442088
+100000,prompt_7,ENSEMBLE_p2-p6,p2_find_duplicate_number,1.19E-05,0.454015367,4.3704686,0.129766086,249.8721284

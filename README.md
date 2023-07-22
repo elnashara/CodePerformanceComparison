@@ -70,7 +70,7 @@ Contributions to this project are welcome! If you'd like to contribute, please f
 
 ## License
 
-This project is licensed under the MIT License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the condition that the above copyright notice and this permission notice are included in all copies or substantial portions of the software.
+This project is licensed under the Vanderbilet License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the condition that the above copyright notice and this permission notice are included in all copies or substantial portions of the software.
 
 ## Acknowledgements
 

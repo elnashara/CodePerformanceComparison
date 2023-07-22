@@ -70,7 +70,13 @@ Contributions to this project are welcome! If you'd like to contribute, please f
 
 ## License
 
-This project is licensed under the Vanderbilet License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the condition that the above copyright notice and this permission notice are included in all copies or substantial portions of the software.
+This project is licensed under the terms of the custom license by the Department of Computer Science, Vanderbilt University.
+
+The material in this repository is provided for educational purposes only. Any use, distribution, or reproduction of the material in this repository is prohibited without the express written permission of the Department of Computer Science, Vanderbilt University.
+
+The material in this repository is not intended for commercial use. If you are interested in using the material in this repository for commercial purposes, please contact the Department of Computer Science, Vanderbilt University.
+
+By accessing this repository, you agree to comply with these terms.
 
 ## Acknowledgements
 

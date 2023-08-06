@@ -26,8 +26,8 @@ Size,prompt_name,prompt,Function,Min,Average,Max
 1000,prompt_human,"""How to count the frequency of the elements in an unordered list?""",p9_countfrequency_strategy,0.0024294,0.002567255,0.0028307
 10000,prompt_human,"""How to count the frequency of the elements in an unordered list?""",p9_countfrequency_strategy,0.028273,0.032701034,0.0466634
 100000,prompt_human,"""How to count the frequency of the elements in an unordered list?""",p9_countfrequency_strategy,0.592384,0.620843425,0.7747849
-1000,Prompt_human,"""Maximum Product Subarray""",p10_maximum_product_subarray_strategy,0.056698,0.081024479,0.0923107
-10000,Prompt_human,"""Maximum Product Subarray""",p10_maximum_product_subarray_strategy,3.3177673,5.3927327,5.663898
+1000,prompt_human,"""Maximum Product Subarray""",p10_maximum_product_subarray_strategy,0.056698,0.081024479,0.0923107
+10000,prompt_human,"""Maximum Product Subarray""",p10_maximum_product_subarray_strategy,3.3177673,5.3927327,5.663898
 1000,prompt_human,"""How to find middle element in a python linked list in a single traversal?""",p11_find_middle_element_linkedlist_subarray_strategy,1.48E-05,1.54E-05,1.89E-05
 10000,prompt_human,"""How to find middle element in a python linked list in a single traversal?""",p11_find_middle_element_linkedlist_subarray_strategy,1.49E-05,1.66E-05,2.81E-05
 100000,prompt_human,"""How to find middle element in a python linked list in a single traversal?""",p11_find_middle_element_linkedlist_subarray_strategy,1.68E-05,1.88E-05,2.30E-05

@@ -16,6 +16,7 @@ import importlib.util
 import re
 import importlib
 import subprocess
+import openai
 
 log_file = "prompt_log.txt"
 
@@ -139,6 +140,95 @@ def generate_code(system_messages, human_messages, api_key, checkfn=None, max_tr
 
         if not success:
             print(f"Trying code generation again. {max_tries} tries left")
+
+    return {"code":code, "raw":result, "success":success, "error":prior_error}
+
+def generate_description(system_messages, human_messages, api_key, checkfn=None, max_tries=10, prior_code=None, prior_error=None, temperature=0):
+    # # Set up the OpenAI API with the provided API key
+    # openai.api_key = api_key
+
+    # # Call the OpenAI API to generate the description
+    # response = openai.Completion.create(
+    #     engine="text-davinci-002",
+    #     prompt=prompt,
+    #     max_tokens=300,  # Adjust the number of max tokens to control the response length
+    # )
+
+    # # Extract the generated description from the API response
+    # generated_description = response['choices'][0]['text'].strip()
+
+    print("Generating description...")
+
+    chat = ChatOpenAI(temperature=temperature, openai_api_key=api_key)
+
+    system_messages = [SystemMessage(content=message) for message in system_messages]
+    human_messages = [HumanMessage(content=message) for message in human_messages]
+
+    result = chat.generate([system_messages + human_messages])
+
+    details = result.llm_output
+    generated_description = result.generations[0][0].text
+    return generated_description
+
+def generate_test_case(system_messages, human_messages, api_key, checkfn=None, max_tries=10, prior_code=None, prior_error=None, temperature=0):
+    print("Generating test case code...")
+
+    chat = ChatOpenAI(temperature=temperature, openai_api_key=api_key)
+
+    system_messages = [SystemMessage(content=message) for message in system_messages]
+    human_messages = [HumanMessage(content=message) for message in human_messages]
+
+    result = None
+    code = None
+    success = checkfn is None
+    while not success and max_tries > 0:
+        max_tries -= 1
+
+        code_delimiter_message = """
+            Any time that you generate code, the code MUST MUST MUST be enclosed in backticks with
+            the name of the language that the code is written in. For example:
+            
+            This is python code that defines a variable with name 'a' and value 1:
+            ```Python
+            def a = 1
+            ```
+            
+            """
+
+        system_messages.insert(0, SystemMessage(content=code_delimiter_message))
+
+        if prior_code:
+            prior_code_message = """
+            Your prior code was:
+            ```Python
+            {prior_code}
+            ```
+            
+            """
+            human_messages.append(HumanMessage(content=prior_code_message))
+
+        if prior_error:
+            fix_error_message = f"""
+            
+            The following error was generated when I tried to compile the code:
+            
+            ```Python
+            {prior_error}
+            ```
+            Please fix the code and try again.
+            
+            Fixed code: 
+            """
+            human_messages.append(HumanMessage(content=fix_error_message))
+
+        result = chat.generate([system_messages + human_messages])
+
+        details = result.llm_output
+        result = result.generations[0][0].text
+
+        code = extract_python_code(result)
+        code = code[0]
+        success = True
 
     return {"code":code, "raw":result, "success":success, "error":prior_error}
 
